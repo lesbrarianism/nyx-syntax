@@ -1,0 +1,20 @@
+.syntax--html,
+.syntax--jsx {
+  &.syntax--meta {
+    &.syntax--class {
+      color: @purple;
+    }
+
+    &.syntax--tag {
+      &.syntax--doctype {
+        color: @purple;
+      }
+    }
+  }
+
+  &.syntax--punctuation {
+    &.syntax--tag {
+      color: @gray;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.syntax--js {
+  &.syntax--constant {
+    color: @light-orange;
+  }
+
+  &.syntax--support {
+    &.syntax--variable {
+      &.syntax--property {
+        color: @very-light-gray;
+      }
+
+      &.syntax--property.syntax--dom {
+        color: @blue;
+      }
+    }
+  }
+
+  &.syntax--entity {
+    &.syntax--name {
+      &.syntax--type {
+        color: @orange;
+      }
+    }
+  }
+
+  &.syntax--variable {
+    &.syntax--property {
+      color: @blue;
+    }
+
+    &.syntax--other.syntax--object {
+      color: @very-light-gray;
+    }
+
+    &.syntax--other.syntax--object.syntax--property {
+      color: @blue;
+    }
+  }
+
+  &.syntax--string.syntax--quoted.syntax--template {
+    .syntax--other.syntax--object.syntax--property {
+      color: @green;
+    }
+  }
+
+  &.syntax--constant {
+    &.syntax--numeric {
+      color: @purple;
+    }
+
+    &.syntax--boolean {
+      color: @pink;
+    }
+  }
+
+  &.syntax--brace.syntax--curly,
+  &.syntax--delimiter.syntax--object.syntax--comma,
+  &.syntax--punctuation.syntax--begin,
+  &.syntax--punctuation.syntax--end {
+    color: @slate-blue;
+
+    .syntax--comment & {
+      color: @syntax-comment-color;
+    }
+  }
+
+  &.syntax--export .syntax--variable.syntax--default {
+    color: @purple;
+  }
+
+  &.syntax--keyword {
+    &.syntax--operator {
+      color: @gray;
+    }
+  }
+}

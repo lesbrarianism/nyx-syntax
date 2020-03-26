@@ -1,0 +1,21 @@
+{
+  "name": "nyx-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A short description of your syntax theme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "nyx",
+    "atom",
+    "material",
+    "monokai",
+    "dark",
+    "sienna"
+  ],
+  "repository": "https://github.com/atom/nyx-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

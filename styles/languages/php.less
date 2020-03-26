@@ -1,0 +1,50 @@
+.syntax--php {
+  &.syntax--punctuation {
+    &.syntax--section {
+      &.syntax--embedded {
+        &.syntax--begin,
+        &.syntax--end {
+          color: @green;
+        }
+      }
+    }
+  }
+
+  &.syntax--entity {
+    &.syntax--name {
+      &.syntax--function {
+        color: @light-mint;
+      }
+    }
+  }
+
+  &.syntax--keyword {
+    &.syntax--operator {
+      &.syntax--assignment {
+        color: @pink;
+      }
+    }
+  }
+
+  &.syntax--meta {
+    &.syntax--object {
+      color: @green;
+    }
+  }
+
+  &.syntax--support {
+    &.syntax--function {
+      &:not(.syntax--output):not(.syntax--construct) {
+        color: @light-mint;
+      }
+    }
+  }
+
+  &.syntax--function {
+    &.syntax--arguments {
+      &.syntax--variable {
+        color: @gray;
+      }
+    }
+  }
+}
