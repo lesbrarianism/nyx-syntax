@@ -1,7 +1,7 @@
 {
   "name": "nyx-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A  dark/sienna style Atom syntax theme based on Monokai and Atom Material.",
   "keywords": [
     "syntax",
