@@ -71,7 +71,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 }
 
 .syntax--keyword {
-  color: @pink !important;
+  color: @pink;
 
   &.syntax--control {
     color: @pink;
@@ -83,6 +83,14 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 
   &.syntax--operator {
     color: @strong-orange;
+
+    &.syntax--logical {
+      color: @pink;
+    }
+
+    &.syntax--assignment {
+      color: @strong-orange;
+    }
   }
 
   &.syntax--other.syntax--special-method {
@@ -103,14 +111,16 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 }
 
 .syntax--constant {
-  color: @pink;
+  color: @slate-blue;
 
   &.syntax--other {
-    color: @orange;
+    color: @light-orange;
   }
 
-  &.syntax--character.syntax--escape {
-    color: @slate-blue;
+  &.syntax--character {
+    &.syntax--escape {
+      color: @slate-blue;
+    }
   }
 
   &.syntax--numeric {
@@ -137,17 +147,23 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
     color: darken(@dark-pink, 10%);
   }
 
-  &.syntax--parameter.syntax--function {
-    color: @strong-orange;
+  &.syntax--parameter {
+    &.syntax--function {
+      color: @strong-orange;
+    }
   }
 
   &.syntax--language {
     color: @pink;
   }
 
-  &.syntax--variable {
+  &.syntax--other {
     &.syntax--object {
       color: @orange;
+
+      &.syntax--property {
+        color: @blue;
+      }
     }
   }
 }
@@ -202,7 +218,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
     }
 
     &.syntax--variable {
-      color: @mint;
+      color: @mint !important;
     }
 
     &.syntax--string {
@@ -242,9 +258,9 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
     }
   }
 
-    &.syntax--embedded {
-      color: @mint;
-    }
+  &.syntax--embedded {
+    color: @mint;
+  }
 
   &.syntax--separator {
     &.syntax--key-value {
@@ -267,11 +283,11 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
     color: @blue;
 
     &.syntax--variable {
-      color: @purple;
+      color: @gray;
     }
 
     &.syntax--any-method {
-      color: @blue;
+      color: @slate-blue;
     }
   }
 
@@ -351,7 +367,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 
   &.syntax--link {
-    color: @orange;
+    color: @slate-blue;
   }
 
   &.syntax--require {

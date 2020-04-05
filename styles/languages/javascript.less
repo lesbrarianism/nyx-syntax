@@ -24,16 +24,13 @@
   }
 
   &.syntax--variable {
-    &.syntax--property {
-      color: @blue;
-    }
-
-    &.syntax--other.syntax--object {
+    &.syntax--object,
+    &.syntax--other {
       color: @very-light-gray;
-    }
 
-    &.syntax--other.syntax--object.syntax--property {
-      color: @blue;
+      &.syntax--property {
+        color: @blue;
+      }
     }
   }
 
