@@ -8,18 +8,6 @@
         }
       }
     }
-
-    &.syntax--definition {
-      color: @gray;
-      
-      &.syntax--begin,
-      &.syntax--end {
-        color: @light-gray;
-      }
-      &.syntax--parameters {
-        color: @purple;
-      }
-    }
   }
 
   &.syntax--entity {
@@ -49,6 +37,12 @@
       &.syntax--variable {
         color: @gray;
       }
+    }
+  }
+
+  &.syntax--constant {
+    &.syntax--language {
+      color: @light-orange;
     }
   }
 }
