@@ -192,11 +192,16 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 .syntax--punctuation {
   &.syntax--definition {
     &.syntax--comment {
-      color: @syntax-comment-color;
-
       &.syntax--begin,
       &.syntax--end {
         color: @syntax-comment-color;
+      }
+    }
+
+    &.syntax--class {
+      &.syntax--begin,
+      &.syntax--end {
+        color: @light-orange;
       }
     }
 
@@ -315,7 +320,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 
     &.syntax--class,
     &.syntax--type.syntax--class {
-      color: @orange;
+      color: @light-orange;
     }
 
     &.syntax--section {
