@@ -6,4 +6,4 @@ If you have suggestions, or created your own variation from this, link me!  I'd 
 
 Looks pretty good when combined with the One Dark UI theme and SETI icons package.
 
-![.tiff screenshot](https://github.com/lesbrarianism/nyx-syntax/blob/master/nyx-syntax-screenshot.tiff?raw=true)
+![.tiff screenshot](https://github.com/lesbrarianism/nyx-syntax/blob/master/nyx-syntax.tiff?raw=true)
