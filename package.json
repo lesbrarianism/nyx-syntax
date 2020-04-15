@@ -1,8 +1,35 @@
 {
-  "name": "nyx-syntax",
-  "theme": "syntax",
-  "version": "0.4.1",
+  "_from": "https://www.atom.io/api/packages/nyx-syntax/versions/0.4.1/tarball",
+  "_id": "nyx-syntax@0.4.1",
+  "_inBundle": false,
+  "_integrity": "sha512-Xju5PU3p3gd3KPGmjUtFyjYUMUlx7ZBR+87P7Kd15T4lyXH7ZAqSAf6usE9fG3TJzGyaiAtfA0j615FNjpwscQ==",
+  "_location": "/nyx-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/nyx-syntax/versions/0.4.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/nyx-syntax/versions/0.4.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/nyx-syntax/versions/0.4.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/nyx-syntax/versions/0.4.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/nyx-syntax/versions/0.4.1/tarball",
+  "_shasum": "3e05a99638ba4b996b10369b6089d85c476bdb8d",
+  "_spec": "https://www.atom.io/api/packages/nyx-syntax/versions/0.4.1/tarball",
+  "_where": "/tmp/apm-install-dir-120313-6120-ai54de.uf6wv",
+  "bugs": {
+    "url": "https://github.com/lesbrarianism/nyx-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "A  dark/sienna style Atom syntax theme based on Monokai and Atom Material.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/lesbrarianism/nyx-syntax#readme",
   "keywords": [
     "syntax",
     "theme",
@@ -13,9 +40,12 @@
     "dark",
     "sienna"
   ],
-  "repository": "https://github.com/lesbrarianism/nyx-syntax",
   "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  }
+  "name": "nyx-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lesbrarianism/nyx-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.4.1"
 }
