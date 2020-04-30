@@ -1,0 +1,87 @@
+.syntax--markup,
+.syntax--md,
+.syntax--source.syntax--gfm .syntax--markup,
+.syntax--text.syntax--md {
+  &.syntax--punctuation {
+    color: @pink;
+  }
+
+  &.syntax--underline {
+    text-decoration: underline;
+  }
+
+  &.syntax--strike {
+    text-decoration: line-through;
+  }
+
+  &.syntax--heading {
+    color: @strong-orange;
+    font-weight: bold;
+  }
+
+  &.syntax--bold,
+  &.syntax--strong.syntax--emphasis {
+    color: @blue;
+    font-weight: bold;
+  }
+
+  &.syntax--changed {
+    color: @purple;
+  }
+
+  &.syntax--deleted {
+    color: @dark-pink;
+  }
+
+  &.syntax--italic {
+    color: @blue;
+    font-style: italic;
+  }
+
+  &.syntax--inserted {
+    color: @green;
+  }
+
+  &.syntax--list {
+    color: @yellow;
+  }
+
+  &.syntax--quote {
+    color: @light-orange;
+  }
+
+  &.syntax--table {
+    color: @light-gray;
+  }
+
+  &.syntax--code,
+  &.syntax--inline,
+  &.syntax--raw {
+    &:not(.syntax--fenced) {
+      color: @green;
+      background-color: fade(darken(@syntax-background-color, 20%), 20%);
+      display: inline;
+    }
+  }
+
+  &.syntax--block,
+  &.syntax--fenced.syntax--code {
+      display: block;
+  }
+
+  &.syntax--text.syntax--link.syntax--string {
+    color: @light-orange;
+  }
+
+  &.syntax--link {
+    color: @slate-blue;
+  }
+
+  &.syntax--hr.syntax--constant {
+    color: @gray;
+  }
+}
+
+.syntax--source.syntax--gfm .syntax--markup {
+  -webkit-font-smoothing: auto;
+}

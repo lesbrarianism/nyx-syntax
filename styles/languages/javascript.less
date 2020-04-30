@@ -32,6 +32,12 @@
         color: @blue;
       }
     }
+
+    &.syntax--parameter {
+      &.syntax--function {
+        color: @very-light-gray;
+      }
+    }
   }
 
   &.syntax--string.syntax--quoted.syntax--template {
@@ -40,34 +46,11 @@
     }
   }
 
-  &.syntax--constant {
-    &.syntax--numeric {
-      color: @purple;
-    }
-
     &.syntax--boolean {
       color: @pink;
     }
-  }
-
-  &.syntax--brace.syntax--curly,
-  &.syntax--delimiter.syntax--object.syntax--comma,
-  &.syntax--punctuation.syntax--begin,
-  &.syntax--punctuation.syntax--end {
-    color: @slate-blue;
-
-    .syntax--comment & {
-      color: @syntax-comment-color;
-    }
-  }
 
   &.syntax--export .syntax--variable.syntax--default {
     color: @purple;
-  }
-
-  &.syntax--keyword {
-    &.syntax--operator {
-      color: @gray;
-    }
   }
 }

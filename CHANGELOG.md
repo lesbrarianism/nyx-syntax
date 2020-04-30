@@ -1,3 +1,4 @@
-## 0.1.0 - First Release
-* Every feature added
-* Every bug fixed
+## 0.4.4 - First Release
+* Edited bracket hightlighting
+* Added syntax highlighting for .markdown files
+
